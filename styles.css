@@ -13,6 +13,7 @@
   background-image: url(BMW1.png);
   background-size: cover;
   background-position: center;
+  transition: background-image 0.3s;
 }
 /* MAking of the Nav Bar */
 nav {
