@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+/****************** MAIN COINTAINER ****************/
+.container{
+    /* position: relative; */
+    padding: 20px 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(BMW1.png);
+    background-size: cover; 
+    background-position: center;
+
+
+}
+/* MAking of the Nav Bar */
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling the BMW logo */
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+    
+}
+/* Styling the Button Test Drive  */
+nav .Btn{
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 15px 50px;  /* top bottom and Left right */
+    border-radius: 30px;
+    /* width:120px;*/
+    /* height:30px;  */
+}
+
